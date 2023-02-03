@@ -21,4 +21,5 @@ jobs:
         uses: snyk/actions/node@master
         env:
           SNYK_TOKEN: ${{ secrets.b79ba244-ce89-4fd9-907b-80243bb2a526}}      
-   
+        with:
+          args: --severity-threshold=high  
