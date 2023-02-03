@@ -6,6 +6,8 @@ jobs:
     steps: 
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
+        with:
+          node-version: 20
       - run: npm install
       - name: setup...
         run: make setup
@@ -20,6 +22,6 @@ jobs:
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/node@master
         env:
-          SNYK_TOKEN: ${{ secrets.b79ba244-ce89-4fd9-907b-80243bb2a526}}      
+          SNYK_TOKEN: ${{ secrets.af68e337-e315-44b8-a8ee-e328345778d4}}      
         with:
           args: --severity-threshold=high  
