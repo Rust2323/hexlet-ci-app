@@ -1,3 +1,5 @@
+[![action-test](https://github.com/Rust2323/hexlet-ci-app/actions/workflows/actions.yml/badge.svg)](https://github.com/Rust2323/hexlet-ci-app/actions/workflows/actions.yml)
+
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
@@ -29,7 +31,7 @@ make lint
 
 ---
 
-[![action-test](https://github.com/Rust2323/hexlet-ci-app/actions/workflows/actions.yml/badge.svg)](https://github.com/Rust2323/hexlet-ci-app/actions/workflows/actions.yml)
+
 
 [![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://hexlet.io/?utm_source=github&utm_medium=link&utm_campaign=hexlet-ci-app)
 
